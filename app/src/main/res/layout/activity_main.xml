@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <VideoView
+        android:id="@+id/vw"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_s"
+        android:layout_width="match_parent"
+        android:id="@+id/brnd"
+        android:layout_height="200dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:fontFamily="@font/product_sans"
+        android:text="Felt cute."
+        android:textAlignment="center"
+        android:textColor="#313131"
+        android:textFontWeight="300"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Might delete later."
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/product_sans"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textFontWeight="600"
+        android:textColor="#313131"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
